@@ -1,4 +1,6 @@
-const series = [
+import { Serie } from "./model";
+
+export const getSeries = async () : Promise<Serie[]> => [
     {
         id: 1,
         name: "Breaking Bad",
@@ -241,4 +243,4 @@ const series = [
     }
 ];
 
-console.log(series);
+export const repo = {getSeries}
