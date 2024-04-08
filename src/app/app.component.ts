@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SeriesListComponent } from "./features/series-list/series-list.component";
+import {SeriesListComponent} from './features/series-list/series-list.component';
+
 
 @Component({
     selector: 'app-root',
@@ -12,6 +13,7 @@ import { SeriesListComponent } from "./features/series-list/series-list.componen
     styleUrl: './app.component.css',
     imports: [RouterOutlet, SeriesListComponent]
 })
+
 export class AppComponent {
   title = 'w06ch01 - Series List';
 }
