@@ -7,7 +7,7 @@ import { Serie } from '../../core/model/model';
   imports: [],
   template: `
   <div>
-    <h2> {{serieInfo.name}}</h2> 
+    <h2> {{serieInfo.name}}</h2>
     <div>
       {{ serieInfo.onAir? '🟢':'🔴'}}
     </div>
